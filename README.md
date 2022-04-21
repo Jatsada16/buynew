@@ -52,28 +52,9 @@ direction RL
   open()
   save()
   }
-  class classS1{
-  -
-  open()
-  save()
-  }
-  class classS2{
-  -
-  open()
-  save()
-  }
-  class classS3{
-  -
-  open()
-  save()
-  }
   S1 --|> form2
   S2 --|> form2
   S3 --|> form2
-  
-  classS1 --|> S1
-  classS2 --|> S2
-  classS3 --|> S3
   
   form2 --|> form1
   ```
